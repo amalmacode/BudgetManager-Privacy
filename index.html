@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Privacy Policy for the Budget Manager mobile application">
+  <title>Budget Manager — Privacy Policy</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #4f46e5;
+      --background: #f8fafc;
+      --surface: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111827;
+        --surface: #1f2937;
+        --text: #f9fafb;
+        --muted: #d1d5db;
+        --border: #374151;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(780px, 100%);
+      margin: 0 auto;
+      padding: 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-top: 32px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .summary {
+      padding: 16px;
+      border-left: 4px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+      border-radius: 8px;
+    }
+
+    .metadata {
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+<main>
+  <h1>Privacy Policy for Budget Manager</h1>
+
+  <p class="metadata">
+    Effective date: August 6, 2026<br>
+    Last updated: August 6, 2026
+  </p>
+
+  <p class="summary">
+    Budget Manager is an offline-first budgeting application. It does not
+    require an account, login, or connection to a Budget Manager cloud
+    service. Financial records are primarily stored locally on the user's
+    device.
+  </p>
+
+  <h2>1. Information handled by the application</h2>
+
+  <p>
+    Budget Manager allows users to enter and manage information such as:
+  </p>
+
+  <ul>
+    <li>Account names and currencies;</li>
+    <li>Income, expenses, budgets, categories, and recurring payments;</li>
+    <li>Merchant names, notes, tags, and receipt images;</li>
+    <li>Financial goals, sinking funds, debts, and installments;</li>
+    <li>Imported CSV or OFX bank-statement information;</li>
+    <li>Manual exchange rates and categorization rules.</li>
+  </ul>
+
+  <p>
+    This information is entered voluntarily and is stored locally on the
+    device. The developer does not operate a backend that receives or stores
+    these financial records.
+  </p>
+
+  <h2>2. Camera, images, and receipt recognition</h2>
+
+  <p>
+    Budget Manager requests camera access only when the user chooses to scan
+    or attach a receipt. Users can deny camera access and enter transaction
+    information manually.
+  </p>
+
+  <p>
+    Receipt images and extracted receipt information are processed on the
+    device and stored with the user's local application data. Budget Manager
+    uses Google ML Kit for text recognition. Google states that ML Kit input
+    images and recognition results are processed on-device and are not sent
+    to Google servers.
+  </p>
+
+  <h2>3. Files, imports, exports, and backups</h2>
+
+  <p>
+    Budget Manager uses the operating system's file picker when the user
+    chooses to import a statement, restore a backup, or export data. The app
+    does not scan unrelated files.
+  </p>
+
+  <p>
+    CSV and OFX statements are parsed locally. Backup and export files are
+    created only when requested by the user and are saved to a location chosen
+    by the user.
+  </p>
+
+  <p>
+    Exported files may contain sensitive financial information. Users are
+    responsible for protecting, encrypting, sharing, and deleting those files.
+  </p>
+
+  <h2>4. Third-party software and diagnostic information</h2>
+
+  <p>
+    Budget Manager uses Google ML Kit for on-device receipt text recognition.
+    According to Google's ML Kit disclosure documentation, the SDK may collect
+    limited device information, application information, performance metrics,
+    and per-installation identifiers for diagnostics and usage analytics.
+    Google states that this information is encrypted in transit and is not
+    shared with third parties.
+  </p>
+
+  <p>
+    ML Kit may contact Google servers to obtain updates, compatibility
+    information, bug fixes, or machine-learning model information. Receipt
+    images and recognized receipt text are not sent to Google for recognition.
+  </p>
+
+  <p>
+    Current versions of Budget Manager may use Google Fonts to retrieve and
+    cache font resources. Such requests may expose standard network information,
+    including the device's IP address, to Google's font infrastructure.
+  </p>
+
+  <p>
+    Budget Manager does not currently include advertising SDKs, behavioral
+    advertising, developer-operated analytics, or a developer-operated cloud
+    synchronization service.
+  </p>
+
+  <h2>5. Data sharing and sale</h2>
+
+  <p>
+    The developer does not sell users' financial information or receipt
+    content. The developer does not receive users' locally stored budgets,
+    transactions, imported statements, or backup files.
+  </p>
+
+  <p>
+    Information handled by third-party SDKs is subject to the providers'
+    applicable terms and privacy practices.
+  </p>
+
+  <h2>6. Data retention and deletion</h2>
+
+  <p>
+    Application data remains on the device until the user deletes individual
+    records or accounts, clears the application's storage, or uninstalls the
+    application.
+  </p>
+
+  <p>
+    Because Budget Manager does not maintain user accounts or a cloud
+    database, there is no server-side account to delete. Backup and export
+    files must be deleted separately from the locations where the user saved
+    them.
+  </p>
+
+  <h2>7. Security</h2>
+
+  <p>
+    Budget Manager uses Android application storage protections. However, no
+    storage or transmission method can be guaranteed to be completely secure.
+    Users should protect their devices with an appropriate screen lock and
+    keep backup files in a secure location.
+  </p>
+
+  <h2>8. Children's privacy</h2>
+
+  <p>
+    Budget Manager is intended as a general financial planning tool and is not
+    designed for children. The developer does not knowingly collect personal
+    information from children through a Budget Manager account or backend.
+  </p>
+
+  <h2>9. Financial disclaimer</h2>
+
+  <p>
+    Budgets, forecasts, automatic categories, subscription detection, and
+    other insights are planning aids. They do not constitute financial,
+    accounting, tax, investment, or legal advice.
+  </p>
+
+  <h2>10. Changes to this policy</h2>
+
+  <p>
+    This policy may be updated when the application's functionality,
+    third-party SDKs, or legal requirements change. The effective date and
+    last-updated date at the top of this page will identify the latest version.
+  </p>
+
+  <h2>11. Contact</h2>
+
+  <p>
+     Email:
+    <a href="mailto:budgetmanager.app@gmail.com">budgetmanager.app@gmail.com</a>
+  </p>
+
+  <footer>
+    <p>
+      This policy page is hosted using GitHub Pages. Visiting this website is
+      also subject to
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+        GitHub's Privacy Statement
+      </a>.
+    </p>
+  </footer>
+</main>
+</body>
+</html>
